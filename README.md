@@ -15,7 +15,7 @@ QA engineer.
 ### Skills
 
 
-![DevTools](https://img.shields.io/badge/-DevTools-2370FF?style=for-the-badge&logo=DevTools&logoColor=3C9AFF)
+![DevTools](https://img.shields.io/badge/-DevTools-2370FF?style=for-the-badge&logo=DevTools&logoColor=004242)
 
 
 ### Socials
