@@ -15,8 +15,14 @@ QA engineer.
 ### Skills
 
 
-![DevTools](https://img.shields.io/badge/-DevTools-2370FF?style=for-the-badge&logo=DevTools&logoColor=004242)
-
+![DevTools](https://img.shields.io/badge/-devtools-004242?style=for-the-badge&logo=DevTools&logoColor=004242)
+![SQL](https://img.shields.io/badge/-SQL-85A0C8?style=for-the-badge&logo=mysql&logoColor=004242)
+![Postman](https://img.shields.io/badge/-postman-C89433?style=for-the-badge&logo=postman&logoColor=004242)
+![AndroidStudio](https://img.shields.io/badge/-androidstudio-C232CC8?style=for-the-badge&logo=androidstudio&logoColor=8200C8)
+![Charles](https://img.shields.io/badge/-charles-B8BFC8?style=for-the-badge&logo=charles&logoColor=250CC8)
+![Mantis](https://img.shields.io/badge/-mantis-50C878?style=for-the-badge&logo=mantis&logoColor=50C878)
+![Jmeter](https://img.shields.io/badge/-jmeter-C81B32?style=for-the-badge&logo=jmeter&logoColor=004242)
+![Xampp](https://img.shields.io/badge/-xampp-C8C218?style=for-the-badge&logo=xampp&logoColor=004242)
 
 ### Socials
 
