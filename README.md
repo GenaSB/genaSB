@@ -19,9 +19,10 @@ QA engineer.
 ![SQL](https://img.shields.io/badge/-SQL-85A0C8?style=for-the-badge&logo=mysql&logoColor=004242)
 ![Postman](https://img.shields.io/badge/-postman-C89433?style=for-the-badge&logo=postman&logoColor=004242)
 ![AndroidStudio](https://img.shields.io/badge/-androidstudio-301BC8?style=for-the-badge&logo=androidstudio&logoColor=22C81F)
+![NoxAppPlayer](https://img.shields.io/badge/-NoxAppPlayer-EB05D8?style=for-the-badge&logo=NoxAppPlayer&logoColor=)
 ![Charles](https://img.shields.io/badge/-charles-B8BFC8?style=for-the-badge&logo=charles&logoColor=250CC8)
 ![Mantis](https://img.shields.io/badge/-mantis-50C878?style=for-the-badge&logo=mantis&logoColor=50C878)
-![Jmeter](https://img.shields.io/badge/-jmeter-C81B32?style=for-the-badge&logo=jmeter&logoColor=004242)
+![Jmeter](https://img.shields.io/badge/-jmeter-9457EB?style=for-the-badge&logo=jmeter&logoColor=004242)9457EB
 ![Xampp](https://img.shields.io/badge/-xampp-C8C218?style=for-the-badge&logo=xampp&logoColor=004242)
 ![KatalonRecorder](https://img.shields.io/badge/-KatalonRecorder-C8081E?style=for-the-badge&logo=KatalonRecorder&logoColor=C4C85E)
 ![Selenium IDE](https://img.shields.io/badge/-SeleniumIDE-1B00C8?style=for-the-badge&logo=SeleniumIDE&logoColor=C4C85E)
