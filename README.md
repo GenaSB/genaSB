@@ -22,7 +22,7 @@ QA engineer.
 ![NoxAppPlayer](https://img.shields.io/badge/-NoxAppPlayer-EB05D8?style=for-the-badge&logo=NoxAppPlayer&logoColor=)
 ![Charles](https://img.shields.io/badge/-charles-B8BFC8?style=for-the-badge&logo=charles&logoColor=250CC8)
 ![Mantis](https://img.shields.io/badge/-mantis-50C878?style=for-the-badge&logo=mantis&logoColor=50C878)
-![Jmeter](https://img.shields.io/badge/-jmeter-9457EB?style=for-the-badge&logo=jmeter&logoColor=004242)9457EB
+![Jmeter](https://img.shields.io/badge/-jmeter-9457EB?style=for-the-badge&logo=jmeter&logoColor=004242)
 ![Xampp](https://img.shields.io/badge/-xampp-C8C218?style=for-the-badge&logo=xampp&logoColor=004242)
 ![KatalonRecorder](https://img.shields.io/badge/-KatalonRecorder-C8081E?style=for-the-badge&logo=KatalonRecorder&logoColor=C4C85E)
 ![Selenium IDE](https://img.shields.io/badge/-SeleniumIDE-1B00C8?style=for-the-badge&logo=SeleniumIDE&logoColor=C4C85E)
