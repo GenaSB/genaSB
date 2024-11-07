@@ -27,6 +27,15 @@ QA engineer.
 ![KatalonRecorder](https://img.shields.io/badge/-KatalonRecorder-C8081E?style=for-the-badge&logo=KatalonRecorder&logoColor=C4C85E)
 ![Selenium IDE](https://img.shields.io/badge/-SeleniumIDE-1B00C8?style=for-the-badge&logo=SeleniumIDE&logoColor=C4C85E)
 ![GitHub](https://img.shields.io/badge/-github-000000?style=for-the-badge&logo=github&logoColor=F0EAD6)
+### Testing documentation
++ [Test-Cases](https://github.com/GenaSB/genaSB/tree/main/my%20examples/test%20cases)
++ Bug-Reports 
++ Test report
++ Test design
++ Using DevTools
++ Postman Collections
++ SQL Queries
+
 ### Socials
 
 <p align="left"> <a href="https://www.github.com/GenaSB" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /> </picture> </a></p>
