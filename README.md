@@ -29,7 +29,7 @@ QA engineer.
 ![GitHub](https://img.shields.io/badge/-github-000000?style=for-the-badge&logo=github&logoColor=F0EAD6)
 ### Testing documentation
 + [Test-Cases](https://github.com/GenaSB/genaSB/tree/main/my%20examples/test%20cases)
-+ Bug-Reports 
++ [Bug-Reports](https://github.com/GenaSB/genaSB/blob/main/my%20examples/BTS%20Mantis.pdf) 
 + Test report
 + Test design
 + Using DevTools
