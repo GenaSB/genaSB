@@ -34,7 +34,7 @@ QA engineer.
 + Test design
 + [Using DevTools](https://github.com/GenaSB/genaSB/blob/main/my%20examples/DevTools%20.pdf)
 + [Postman Collections](https://github.com/GenaSB/genaSB/blob/main/my%20examples/Part%203%20Corrected%20Collection%201.postman_collection.json)
-+ SQL Queries
++ [SQL Queries](https://github.com/GenaSB/genaSB/blob/main/my%20examples/sql.pdf)
 
 ### Socials
 
