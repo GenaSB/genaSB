@@ -30,7 +30,7 @@ QA engineer.
 ### Testing documentation
 + [Test-Cases](https://github.com/GenaSB/genaSB/tree/main/my%20examples/test%20cases)
 + [Bug-Reports](https://github.com/GenaSB/genaSB/blob/main/my%20examples/BTS%20Mantis.pdf) 
-+ [Test report]
++ [Test report](https://github.com/GenaSB/genaSB/tree/main/my%20examples/test%20report)
 + [Test design](https://github.com/GenaSB/genaSB/tree/main/my%20examples/test%20design)
 + [Using DevTools](https://github.com/GenaSB/genaSB/blob/main/my%20examples/DevTools%20.pdf)
 + [Postman Collections](https://github.com/GenaSB/genaSB/blob/main/my%20examples/Part%203%20Corrected%20Collection%201.postman_collection.json)
