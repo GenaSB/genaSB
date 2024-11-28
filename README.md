@@ -30,8 +30,8 @@ QA engineer.
 ### Testing documentation
 + [Test-Cases](https://github.com/GenaSB/genaSB/tree/main/my%20examples/test%20cases)
 + [Bug-Reports](https://github.com/GenaSB/genaSB/blob/main/my%20examples/BTS%20Mantis.pdf) 
-+ [Test report](https://github.com/GenaSB/genaSB/tree/main/my%20examples/test%20design)
-+ [Test design](https://github.com/GenaSB/genaSB/blob/main/my%20examples/PICT%20.pdf) (https://github.com/GenaSB/genaSB/blob/main/my%20examples/%D0%A2%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0%20%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B9%20%20(1).pdf) (https://github.com/GenaSB/genaSB/blob/main/my%20examples/%D0%9E%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F%20decision%20table%20(1).pdf)
++ [Test report]
++ [Test design](https://github.com/GenaSB/genaSB/tree/main/my%20examples/test%20design)
 + [Using DevTools](https://github.com/GenaSB/genaSB/blob/main/my%20examples/DevTools%20.pdf)
 + [Postman Collections](https://github.com/GenaSB/genaSB/blob/main/my%20examples/Part%203%20Corrected%20Collection%201.postman_collection.json)
 + [SQL Queries](https://github.com/GenaSB/genaSB/blob/main/my%20examples/sql.pdf)
