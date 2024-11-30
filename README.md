@@ -6,7 +6,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 QA engineer.
 
 
-Обучался ручному тестированию на курсе, далее ознакомившись с реалиями самостоятельно продолжал обучения, пополняя знания и навыки работы. На данный момент учусь на курсе по автоматизации на Python.
+Обучался ручному тестированию на курсе, далее самостоятельно продолжал обучения, пополняя знания и навыки работы. На данном этапе учусь на курсе по автоматизации на Python.
 
 * 🌍  I'm based in Томск.
 * ✉️  You can contact me at https://vk.com/gsergeev18 bekrenev87@list.ru https://t.me/@Gennadiy_SB
@@ -52,7 +52,7 @@ QA engineer.
 
 <a href="https://github.com/GenaSB" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GenaSB&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
 
-<b>Top Repositories</b>
+
 
 <div width="100%" align="center"></div><br /><br /><br /><br /><br /><br /><br />
 
