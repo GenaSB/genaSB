@@ -9,7 +9,7 @@ QA engineer.
 Обучался ручному тестированию на курсе, далее самостоятельно продолжал обучения, пополняя знания и навыки работы. На данном этапе учусь на курсе по автоматизации на Python.
 
 * 🌍  I'm based in Томск.
-* ✉️  You can contact me at https://vk.com/gsergeev18 bekrenev87@list.ru https://t.me/@Gennadiy_SB
+* ✉️  You can contact me at https://t.me/Gennadiy_SB bekrenev87@list.ru https://t.me/@Gennadiy_SB
 * 🧠  I'm learning автоматизация тестирования на Python
 
 ### Skills
@@ -51,7 +51,6 @@ QA engineer.
 <a href="http://www.github.com/GenaSB"><img src="https://github-readme-activity-graph.cyclic.app/graph?username=GenaSB&bg_color=1c1917&color=ffffff&line=0891b2&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
 
 <a href="https://github.com/GenaSB" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GenaSB&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
-
 
 
 <div width="100%" align="center"></div><br /><br /><br /><br /><br /><br /><br />
