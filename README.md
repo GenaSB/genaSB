@@ -1,16 +1,16 @@
 ![Header](https://github.com/GenaSB/genaSB/blob/main/images/workingHard.gif)
 
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Gennadiy
+Здравствуйте ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) меня зовут Геннадий, я начинающий тестировщик программного обеспечения.
 
 
-QA engineer.
+
 
 
 Обучался ручному тестированию на курсе, далее самостоятельно продолжал обучения, пополняя знания и навыки работы. На данном этапе учусь на курсе по автоматизации тестирования на Python.
 
-* 🌍  I'm based in Russia.
-* ✉️  You can contact me at https://t.me/Gennadiy_SB https://wa.me/79966367528 bekrenev87@list.ru 
-* 🧠  I'm learning автоматизация тестирования на Python
+* 🌍  Я проживаю в России.
+* ✉️  Вы можете связаться со мной https://t.me/Gennadiy_SB https://wa.me/79966367528 bekrenev87@list.ru 
+* 🧠  Обучаюсь автоматизация тестирования на Python
 
 ### Skills
 
@@ -21,6 +21,7 @@ QA engineer.
 ![AndroidStudio](https://img.shields.io/badge/-androidstudio-301BC8?style=for-the-badge&logo=androidstudio&logoColor=22C81F)
 ![NoxAppPlayer](https://img.shields.io/badge/-NoxAppPlayer-EB05D8?style=for-the-badge&logo=NoxAppPlayer&logoColor=)
 ![Charles](https://img.shields.io/badge/-charles-B8BFC8?style=for-the-badge&logo=charles&logoColor=250CC8)
+![TestRail](https://img.shields.io/badge/-TestRail-003242?style=for-the-badge&logo=TestRail&logoColor=988242)
 ![Mantis](https://img.shields.io/badge/-mantis-50C878?style=for-the-badge&logo=mantis&logoColor=50C878)
 ![Jmeter](https://img.shields.io/badge/-jmeter-9457EB?style=for-the-badge&logo=jmeter&logoColor=004242)
 ![Xampp](https://img.shields.io/badge/-xampp-C8C218?style=for-the-badge&logo=xampp&logoColor=004242)
