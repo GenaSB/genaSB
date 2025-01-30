@@ -34,7 +34,7 @@
 + [Test report](https://github.com/GenaSB/genaSB/tree/main/my%20examples/test%20report)
 + [Test design](https://github.com/GenaSB/genaSB/tree/main/my%20examples/test%20design)
 + [DevTools](https://github.com/GenaSB/genaSB/blob/main/my%20examples/DevTools%20.pdf)
-+ [Postman Collections](https://github.com/GenaSB/genaSB/blob/main/my%20examples/Part%203%20Corrected%20Collection%201.postman_collection.json)
++ [Postman Collections](https://github.com/GenaSB/genaSB/blob/main/my%20examples/Books%20API.postman_collection.json)
 + [SQL](https://github.com/GenaSB/genaSB/blob/main/my%20examples/sql.pdf)
 
 
