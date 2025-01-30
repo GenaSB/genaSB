@@ -29,7 +29,7 @@
 ![Selenium IDE](https://img.shields.io/badge/-SeleniumIDE-1B00C8?style=for-the-badge&logo=SeleniumIDE&logoColor=C4C85E)
 ![GitHub](https://img.shields.io/badge/-github-000000?style=for-the-badge&logo=github&logoColor=F0EAD6)
 ### Testing documentation
-+ [Test-Cases](https://github.com/GenaSB/genaSB/tree/main/my%20examples/test%20cases)
++ [Test-Cases](https://github.com/GenaSB/genaSB/tree/main/my%20examples/Test%20Rail)
 + [Bug-Reports](https://github.com/GenaSB/genaSB/blob/main/my%20examples/BTS%20Mantis.pdf) 
 + [Test report](https://github.com/GenaSB/genaSB/tree/main/my%20examples/test%20report)
 + [Test design](https://github.com/GenaSB/genaSB/tree/main/my%20examples/test%20design)
