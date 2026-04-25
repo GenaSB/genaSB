@@ -36,7 +36,7 @@
 + [DevTools](https://github.com/GenaSB/genaSB/blob/main/my%20examples/DevTools%20.pdf)
 + [Postman Collections](https://github.com/GenaSB/genaSB/blob/main/my%20examples/Books%20API.postman_collection.json)
 + [SQL](https://github.com/GenaSB/genaSB/blob/main/my%20examples/sql.pdf)
-+ [python tests](https://github.com/GenaSB/genaSB/tree/master/pages)
++ [Python tests](https://github.com/GenaSB/genaSB/tree/master/pages)
 
 
 
