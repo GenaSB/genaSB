@@ -4,8 +4,9 @@ from pages.order_page import Order_page
 from pages.product_page import Product_page
 from pages.laptop_selection_page import Laptop_selection_page
 from pages.login_page import login_page
-from pages.main_page import  Main_page
+from pages.main_page import Main_page
 from pages.product_selection_page import Product_selection_page
+from base.base_class import Base
 
 
 def test_buy_product():
@@ -13,26 +14,33 @@ def test_buy_product():
     options.add_argument("--guest")
     options.add_experimental_option("detach", True)
     driver = webdriver.Chrome(options=options)
+    base = Base(driver)
 
-    print("Start test")
-    login = login_page(driver)
-    login.authorization()
+    try:  # 👈 ОБЕРТЫВАЕМ ТЕСТ
+        print("Start test")
+        login = login_page(driver)
+        login.authorization()
 
-    mp = Main_page(driver)
-    mp.go_to_catalog()
+        mp = Main_page(driver)
+        mp.go_to_catalog()
 
-    psp = Product_selection_page(driver)
-    psp.selection_product()
+        psp = Product_selection_page(driver)
+        psp.selection_product()
 
-    lsp = Laptop_selection_page(driver)
-    lsp.selection_laptop()
+        lsp = Laptop_selection_page(driver)
+        lsp.selection_laptop()
 
-    pp = Product_page(driver)
-    pp.add_to_cart(lsp.price2, lsp.selected_item_name)
+        pp = Product_page(driver)
+        pp.add_to_cart(lsp.price2, lsp.selected_item_name)
 
-    cp = Cart_page(driver)
-    cp.place_an_order()
+        cp = Cart_page(driver)
+        cp.place_an_order()
 
-    op = Order_page(driver)
-    op.fill_out_the_form()
+        op = Order_page(driver)
+        op.fill_out_the_form()
+
+    except Exception as e:  # 👈 ЛОВИМ ОШИБКУ
+        print(f"Тест упал: {e}")
+        base.get_screenshot("test_buy_product")  # 👈 ДЕЛАЕМ СКРИНШОТ
+        raise  # 👈 ПЕРЕБРАСЫВАЕМ ОШИБКУ ДАЛЬШЕ
 
