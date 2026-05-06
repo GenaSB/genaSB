@@ -16,7 +16,7 @@ def test_buy_product():
     driver = webdriver.Chrome(options=options)
     base = Base(driver)
 
-    try:  # 👈 ОБЕРТЫВАЕМ ТЕСТ
+    try:
         print("Start test")
         login = login_page(driver)
         login.authorization()
@@ -39,8 +39,8 @@ def test_buy_product():
         op = Order_page(driver)
         op.fill_out_the_form()
 
-    except Exception as e:  # 👈 ЛОВИМ ОШИБКУ
+    except Exception as e:
         print(f"Тест упал: {e}")
-        base.get_screenshot("test_buy_product")  # 👈 ДЕЛАЕМ СКРИНШОТ
-        raise  # 👈 ПЕРЕБРАСЫВАЕМ ОШИБКУ ДАЛЬШЕ
+        base.get_screenshot("test_buy_product")
+        raise
 
