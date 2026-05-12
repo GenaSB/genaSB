@@ -12,7 +12,7 @@ class Product_selection_page(Base):
         self.driver = driver
 
     #Locators
-    checkbox_label = "(//span[@class='checkbox-ps'])[6]"
+    checkbox_label = "(//span[@class='checkbox-ps'])[5]"
     ssd_capacity = "//div[text()='Объем SSD']"
     checkbox_ssd = "//span[@class='checkbox-label' and text()='512 ГБ']"
     drive_type = "//div[text()='Тип привода']"
