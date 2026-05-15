@@ -1,8 +1,11 @@
 import datetime
+from pathlib import Path
 
 class Base:
     def __init__(self, driver):
         self.driver = driver
+        self.screens_dir = Path(__file__).parent / "screens"
+        self.screens_dir.mkdir(exist_ok=True)
 
     """Method get current url"""
     def get_current_url(self):
@@ -24,6 +27,11 @@ class Base:
     def get_screenshot(self, test_name="test"):
         now_date = datetime.datetime.now().strftime("%Y.%m.%d.%H.%M.%S")
         name_screenshot = f'screenshot_{test_name}_{now_date}.png'
-        self.driver.save_screenshot(f'C:\\Users\\Генадий\\PycharmProjects\\work_project\\screen\\{name_screenshot}')
+        screenshot_path = self.screens_dir / name_screenshot
+        self.driver.save_screenshot(str(screenshot_path))
         print(f"Скриншот сохранен: {name_screenshot}")
+
+
+
+
 
