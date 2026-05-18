@@ -7,10 +7,6 @@ from base.base_class import Base
 class Cart_page(Base):
 
 
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
-
 
     #Locators
     order_button = "//a[@class='u-f-right btn_yellow']"

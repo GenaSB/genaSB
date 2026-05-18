@@ -7,10 +7,6 @@ from base.base_class import Base
 class Order_page(Base):
 
 
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
-
 
     #Locators
     individual_button = "body > div.site-main > div.main-row.row--blue.adptFix > div.wrapper > div.m-inner.order > div.form-title > div > label:nth-child(1) > span.radio-label"

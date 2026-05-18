@@ -8,11 +8,6 @@ from base.base_class import Base
 class Main_page(Base):
 
 
-
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
-
     #Locators
     catalog_button = "//a[@class='h__catalog-toggle catalog-toggle js-catalog-toggle']"
     menu_button = "//a[@href='/catalog/portable-devices/notebooks']"

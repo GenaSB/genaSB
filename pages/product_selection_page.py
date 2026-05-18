@@ -7,10 +7,6 @@ from base.base_class import Base
 
 class Product_selection_page(Base):
 
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
-
     #Locators
     checkbox_label = "(//span[@class='checkbox-ps'])[5]"
     ssd_capacity = "//div[text()='Объем SSD']"

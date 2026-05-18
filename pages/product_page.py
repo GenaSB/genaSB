@@ -7,13 +7,6 @@ from base.base_class import Base
 class Product_page(Base):
 
 
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
-        self.in_cart = None
-        self.price_in_cart = None
-
-
     #Locators
     add_product_button = "//a[@class='add-basket card__add-basket--yellow  card__add-basket js-add-basket']"
     cart_button = "//*[@id='headBasketCount']"
