@@ -8,7 +8,7 @@ from base.base_class import Base
 class Product_selection_page(Base):
 
     #Locators
-    checkbox_label = "(//span[@class='checkbox-ps'])[5]"
+    checkbox_label = "(//span[@class='checkbox-ps'])[4]"
     ssd_capacity = "//div[text()='Объем SSD']"
     checkbox_ssd = "//span[@class='checkbox-label' and text()='512 ГБ']"
     drive_type = "//div[text()='Тип привода']"

@@ -19,25 +19,25 @@ def test_buy_product():
     try:
         print("Start test")
         login = login_page(driver)
-        login.authorization()
+        login.authorization()    # авторизация на главной странице
 
         mp = Main_page(driver)
-        mp.go_to_catalog()
+        mp.go_to_catalog()       # выбор товара в каталоге
 
         psp = Product_selection_page(driver)
-        psp.selection_product()
+        psp.selection_product()  # выбор параметров товара через фильтры
 
         lsp = Laptop_selection_page(driver)
-        lsp.selection_laptop()
+        lsp.selection_laptop()   # выбор ноутбука и проверка названия с ценой
 
         pp = Product_page(driver)
-        pp.add_to_cart(lsp.price2, lsp.selected_item_name)
+        pp.add_to_cart(lsp.price2, lsp.selected_item_name)  # добавление товара в корзину и проверка данных
 
         cp = Cart_page(driver)
-        cp.place_an_order()
+        cp.place_an_order()      # переход к оформлению заказа
 
         op = Order_page(driver)
-        op.fill_out_the_form()
+        op.fill_out_the_form()   # оформление заказа
 
     except Exception as e:
         print(f"Тест упал: {e}")
