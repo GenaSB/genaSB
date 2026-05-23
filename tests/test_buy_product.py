@@ -22,13 +22,13 @@ def test_buy_product():
         login.authorization()    # авторизация на главной странице
 
         mp = Main_page(driver)
-        mp.go_to_catalog()       # выбор товара в каталоге
+        mp.go_to_catalog()       # выбор наименования товаров в каталоге
 
         psp = Product_selection_page(driver)
-        psp.selection_product()  # выбор параметров товара через фильтры
+        psp.selection_product()  # выбор параметров искомого товара через фильтры
 
         lsp = Laptop_selection_page(driver)
-        lsp.selection_laptop()   # выбор ноутбука и проверка названия с ценой
+        lsp.selection_laptop()   # выбор товара и проверка названия с ценой
 
         pp = Product_page(driver)
         pp.add_to_cart(lsp.price2, lsp.selected_item_name)  # добавление товара в корзину и проверка данных

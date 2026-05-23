@@ -7,12 +7,19 @@ from base.base_class import Base
 
 class Main_page(Base):
 
+    """  Переход в каталог ноутбуков.
+
+        Шаги:
+            1. Открывает текущую страницу
+            2. Нажимает кнопку каталога
+            3. Нажимает пункт меню "Ноутбуки"
+            4. Проверяет успешность перехода по слову "Ноутбуки" """
+
 
     #Locators
     catalog_button = "//a[@class='h__catalog-toggle catalog-toggle js-catalog-toggle']"
     menu_button = "//a[@href='/catalog/portable-devices/notebooks']"
     product_type_word = "body > div.site-main > div > div.wrapper > div.bc > a:nth-child(2)"
-
 
     #Getters
     def get_catalog_button(self):
