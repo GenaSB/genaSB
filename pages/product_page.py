@@ -3,6 +3,9 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 from base.base_class import Base
+from utilites import logger
+from utilites.logger import Logger
+
 
 class Product_page(Base):
     """ Добавление выбранного ноутбука в корзину и проверка соответствия данных.
@@ -60,6 +63,7 @@ class Product_page(Base):
 
     #Methods
     def add_to_cart(self, price2, selected_item_name):
+        Logger.add_start_step(method="add_to_cart")
         self.get_current_url()
         self.driver.maximize_window()
         self.click_add_product_button()
@@ -69,6 +73,7 @@ class Product_page(Base):
         self.click_final_price()
         self.assert_word(self.in_cart, selected_item_name)
         self.assert_word(self.price_in_cart, price2)
+        Logger.add_end_step(url=self.driver.current_url, method="add_to_cart")
 
 
 

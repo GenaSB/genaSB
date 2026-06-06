@@ -3,6 +3,9 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 from base.base_class import Base
+from utilites import logger
+from utilites.logger import Logger
+
 
 class Cart_page(Base):
 
@@ -40,10 +43,12 @@ class Cart_page(Base):
 
     #Methods
     def place_an_order(self):
+        Logger.add_start_step(method="place_an_order")
         self.get_current_url()
         self.driver.maximize_window()
         self.click_order_button()
         self.click_page_name()
+        Logger.add_end_step(url=self.driver.current_url, method="place_an_order")
 
 
 
