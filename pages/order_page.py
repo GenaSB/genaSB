@@ -71,7 +71,7 @@ class Order_page(Base):
 
     #Methods
     def fill_out_the_form(self):
-        Logger.add_start_step(method="fill_out_the_form")
+
         self.click_individual_button()
         self.get_current_url()
         self.click_courier_button()
@@ -80,7 +80,7 @@ class Order_page(Base):
         self.click_payment_QR_button()
         self.click_field_order_comment()
         self.click_agreement_button()
-        Logger.add_end_step(url=self.driver.current_url, method="fill_out_the_form")
+
 
 
 

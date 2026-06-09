@@ -45,13 +45,12 @@ class Main_page(Base):
 
         #Methods
     def go_to_catalog(self):
-        Logger.add_start_step(method="go_to_catalog")
         self.get_current_url()
         self.click_catalog_button()
         self.click_menu_button()
         self.assert_word(self.get_main_word(), "Ноутбуки")
         self.show_section_titl()
-        Logger.add_end_step(url=self.driver.current_url, method="go_to_catalog")
+
 
 
 

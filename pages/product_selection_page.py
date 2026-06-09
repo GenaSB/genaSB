@@ -93,7 +93,7 @@ class Product_selection_page(Base):
 
         #Methods
     def selection_product(self):
-        Logger.add_start_step(method="selection_product")
+
         self.get_current_url()
         self.driver.maximize_window()
         self.click_checkbox_label()
@@ -111,7 +111,7 @@ class Product_selection_page(Base):
         self.click_show_all_button()
         self.assert_word(self.get_main_word(), "Ноутбуки")
         self.show_section_titl()
-        Logger.add_end_step(url=self.driver.current_url, method="selection_product")
+
 
 
 

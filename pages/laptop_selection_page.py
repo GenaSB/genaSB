@@ -81,7 +81,6 @@ class Laptop_selection_page(Base):
 
     #Methods
     def selection_laptop(self):
-        Logger.add_start_step(method="selection_laptop")
         self.get_current_url()
         self.driver.maximize_window()
         self.click_price()
@@ -93,7 +92,7 @@ class Laptop_selection_page(Base):
         if '\n' in self.price:
             self.price = self.price.split('\n')[1]
         self.assert_word(self.price, self.price2)
-        Logger.add_end_step(url=self.driver.current_url, method="selection_laptop")
+
 
 
 
