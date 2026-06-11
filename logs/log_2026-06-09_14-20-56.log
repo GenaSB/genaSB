@@ -1,0 +1,152 @@
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-09 14:20:57.905584
+Start name method: authorization
+
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-09 14:20:57.906236
+Start name method: authorization
+
+End time: 2026-06-09 14:21:05.233819
+End name method: authorization
+URL: https://e.intant.ru/
+
+-----
+End time: 2026-06-09 14:21:05.235822
+End name method: authorization
+URL: https://e.intant.ru/
+
+-----
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-09 14:21:05.235822
+Start name method: go_to_catalog
+
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-09 14:21:05.235822
+Start name method: go_to_catalog
+
+End time: 2026-06-09 14:21:08.084496
+End name method: go_to_catalog
+URL: https://e.intant.ru/catalog/portable-devices/notebooks
+
+-----
+End time: 2026-06-09 14:21:08.086330
+End name method: go_to_catalog
+URL: https://e.intant.ru/catalog/portable-devices/notebooks
+
+-----
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-09 14:21:08.086330
+Start name method: selection_product
+
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-09 14:21:08.086982
+Start name method: selection_product
+
+End time: 2026-06-09 14:21:19.216075
+End name method: selection_product
+URL: https://e.intant.ru/catalog/portable-devices/notebooks?flt=ZjowXzE3OzFfNDAzMzA7MV83MTY7MV8yNjAzOzFfMjEwODk
+
+-----
+End time: 2026-06-09 14:21:19.218386
+End name method: selection_product
+URL: https://e.intant.ru/catalog/portable-devices/notebooks?flt=ZjowXzE3OzFfNDAzMzA7MV83MTY7MV8yNjAzOzFfMjEwODk
+
+-----
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-09 14:21:19.218386
+Start name method: selection_laptop
+
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-09 14:21:19.219382
+Start name method: selection_laptop
+
+End time: 2026-06-09 14:21:21.747929
+End name method: selection_laptop
+URL: https://e.intant.ru/catalog/portable-devices/notebooks/laptop-asus-vivobook-15-x1504vabq2880-90nb10j2m03b20-432826.htm
+
+-----
+Product step: Selected laptop
+Product name: Ноутбук ASUS VivoBook 15 X1504VA-BQ2880 90NB10J2-M03B20
+Product price: 48 000 ₽
+
+End time: 2026-06-09 14:21:21.749929
+End name method: selection_laptop
+URL: https://e.intant.ru/catalog/portable-devices/notebooks/laptop-asus-vivobook-15-x1504vabq2880-90nb10j2m03b20-432826.htm
+
+-----
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-09 14:21:21.749929
+Start name method: add_to_cart
+
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-09 14:21:21.749929
+Start name method: add_to_cart
+
+End time: 2026-06-09 14:21:28.464479
+End name method: add_to_cart
+URL: https://e.intant.ru/basket.htm
+
+-----
+Cart action: add to cart
+Product: Ноутбук ASUS VivoBook 15 X1504VA-BQ2880 90NB10J2-M03B20
+Quantity: 1
+
+End time: 2026-06-09 14:21:28.466482
+End name method: add_to_cart
+URL: https://e.intant.ru/basket.htm
+
+-----
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-09 14:21:28.466482
+Start name method: place_an_order
+
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-09 14:21:28.466482
+Start name method: place_an_order
+
+End time: 2026-06-09 14:21:32.452676
+End name method: place_an_order
+URL: https://e.intant.ru/basket/ordering.htm
+
+-----
+End time: 2026-06-09 14:21:32.456142
+End name method: place_an_order
+URL: https://e.intant.ru/basket/ordering.htm
+
+-----
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-09 14:21:32.456142
+Start name method: fill_out_the_form
+
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-09 14:21:32.457143
+Start name method: fill_out_the_form
+

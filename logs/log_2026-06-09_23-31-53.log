@@ -1,0 +1,54 @@
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-09 23:31:58.735082
+Start name method: authorization
+
+End time: 2026-06-09 23:32:10.168171
+End name method: authorization
+URL: https://e.intant.ru/
+
+-----
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-09 23:32:10.168171
+Start name method: go_to_catalog
+
+End time: 2026-06-09 23:32:13.844377
+End name method: go_to_catalog
+URL: https://e.intant.ru/catalog/portable-devices/notebooks
+
+-----
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-09 23:32:13.844377
+Start name method: selection_product
+
+End time: 2026-06-09 23:32:27.250616
+End name method: selection_product
+URL: https://e.intant.ru/catalog/portable-devices/notebooks?flt=ZjowXzE3OzFfNDAzMzA7MV83MTY7MV8yNjAzOzFfMjEwODk
+
+-----
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-09 23:32:27.250616
+Start name method: selection_laptop
+
+Product step: Selected laptop
+Product name: Ноутбук ASUS VivoBook 15 X1504VA-BQ2880 90NB10J2-M03B20
+Product price: 48 000 ₽
+
+End time: 2026-06-09 23:32:40.262666
+End name method: selection_laptop
+URL: https://e.intant.ru/catalog/portable-devices/notebooks/laptop-asus-vivobook-15-x1504vabq2880-90nb10j2m03b20-432826.htm
+
+-----
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-09 23:32:40.263774
+Start name method: add_to_cart
+

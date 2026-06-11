@@ -1,0 +1,28 @@
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-07 00:42:11.233518
+Start name method: authorization
+
+End time: 2026-06-07 00:42:20.927446
+End name method: authorization
+URL: https://e.intant.ru/
+
+-----
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-07 00:42:20.929448
+Start name method: go_to_catalog
+
+End time: 2026-06-07 00:42:24.520083
+End name method: go_to_catalog
+URL: https://e.intant.ru/catalog/portable-devices/notebooks
+
+-----
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-07 00:42:24.522075
+Start name method: selection_product
+

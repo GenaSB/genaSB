@@ -1,0 +1,78 @@
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-07 00:57:24.317272
+Start name method: authorization
+
+End time: 2026-06-07 00:57:33.894281
+End name method: authorization
+URL: https://e.intant.ru/
+
+-----
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-07 00:57:33.896362
+Start name method: go_to_catalog
+
+End time: 2026-06-07 00:57:36.665552
+End name method: go_to_catalog
+URL: https://e.intant.ru/catalog/portable-devices/notebooks
+
+-----
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-07 00:57:36.666552
+Start name method: selection_product
+
+End time: 2026-06-07 00:57:43.892839
+End name method: selection_product
+URL: https://e.intant.ru/catalog/portable-devices/notebooks?flt=ZjowXzE3OzFfNDAzMzA7MV83MTY7MV8yNjAzOzFfMjEwODk
+
+-----
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-07 00:57:43.893788
+Start name method: selection_laptop
+
+End time: 2026-06-07 00:57:51.643415
+End name method: selection_laptop
+URL: https://e.intant.ru/catalog/portable-devices/notebooks/laptop-asus-vivobook-15-x1504vabq2880-90nb10j2m03b20-432826.htm
+
+-----
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-07 00:57:51.645418
+Start name method: add_to_cart
+
+End time: 2026-06-07 00:57:57.619205
+End name method: add_to_cart
+URL: https://e.intant.ru/basket.htm
+
+-----
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-07 00:57:57.620276
+Start name method: place_an_order
+
+End time: 2026-06-07 00:58:02.494824
+End name method: place_an_order
+URL: https://e.intant.ru/basket/ordering.htm
+
+-----
+
+-----
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-07 00:58:02.495517
+
+Start name method: fill_out_the_form
+
+End time: 2026-06-07 00:58:07.262344
+End name method: fill_out_the_form
+URL: https://e.intant.ru/basket/ordering.htm
+
+-----
