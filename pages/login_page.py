@@ -1,3 +1,4 @@
+import allure
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -78,17 +79,20 @@ class login_page(Base):
 
         #Methods
     def authorization(self):
-        self.driver.get(self.url)
-        self.driver.maximize_window()
-        self.get_current_url()
-        self.click_popup_button()
-        self.click_cookie_button()
-        self.click_button_authorization()
-        self.input_user_mail("autotezter@mail.ru")
-        self.input_password("autotezter@mail.ru")
-        self.click_login_butoon()
-        self.assert_word(self.get_name_user_word(), "User2")
-        self.show_name_user()
+        with allure.step("authorization"):
+            Logger.add_start_step("authorization")
+            self.driver.get(self.url)
+            self.driver.maximize_window()
+            self.get_current_url()
+            self.click_popup_button()
+            self.click_cookie_button()
+            self.click_button_authorization()
+            self.input_user_mail("autotezter@mail.ru")
+            self.input_password("autotezter@mail.ru")
+            self.click_login_butoon()
+            self.assert_word(self.get_name_user_word(), "User2")
+            self.show_name_user()
+            Logger.add_end_step(self.driver.current_url, "authorization")
 
 
 

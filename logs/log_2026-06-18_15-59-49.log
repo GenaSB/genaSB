@@ -1,0 +1,79 @@
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-18 15:59:50.858750
+Start name method: authorization
+
+End time: 2026-06-18 15:59:58.763461
+End name method: authorization
+URL: https://e.intant.ru/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-18 15:59:58.764482
+Start name method: go_to_catalog
+
+End time: 2026-06-18 16:00:01.480127
+End name method: go_to_catalog
+URL: https://e.intant.ru/catalog/portable-devices/notebooks
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-18 16:00:01.482126
+Start name method: selection_product
+
+End time: 2026-06-18 16:00:09.880906
+End name method: selection_product
+URL: https://e.intant.ru/catalog/portable-devices/notebooks?flt=ZjowXzE3OzFfNDAzMzA7MV83MTY7MV8yNjAzOzFfMjEwODk
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-18 16:00:09.881908
+Start name method: selection_laptop
+
+Product step: Selected laptop
+Product name: Ноутбук ASUS VivoBook 15 X1504VA-BQ2880 90NB10J2-M03B20
+Product price: 48 000 ₽
+
+End time: 2026-06-18 16:00:13.424551
+End name method: selection_laptop
+URL: https://e.intant.ru/catalog/portable-devices/notebooks/laptop-asus-vivobook-15-x1504vabq2880-90nb10j2m03b20-432826.htm
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-18 16:00:13.427552
+Start name method: add_to_cart
+
+Cart action: add to cart
+Quantity: 1
+
+End time: 2026-06-18 16:00:15.829809
+End name method: add_to_cart
+URL: https://e.intant.ru/basket.htm
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-18 16:00:15.830492
+Start name method: place_an_order
+
+End time: 2026-06-18 16:00:17.964694
+End name method: place_an_order
+URL: https://e.intant.ru/basket/ordering.htm
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-18 16:00:17.965691
+Start name method: fill_out_the_form
+

@@ -1,3 +1,4 @@
+import allure
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -18,7 +19,7 @@ class Product_selection_page(Base):
                 5. Проверяет успешность фильтрации по слову "Ноутбуки" """
 
     #Locators
-    checkbox_label = "(//span[@class='checkbox-ps'])[5]"
+    checkbox_label = "(//span[@class='checkbox-ps'])[6]"
     ssd_capacity = "//div[text()='Объем SSD']"
     checkbox_ssd = "//span[@class='checkbox-label' and text()='512 ГБ']"
     drive_type = "//div[text()='Тип привода']"
@@ -93,24 +94,26 @@ class Product_selection_page(Base):
 
         #Methods
     def selection_product(self):
-
-        self.get_current_url()
-        self.driver.maximize_window()
-        self.click_checkbox_label()
-        self.driver.execute_script("window.scrollBy(0, 1000)")
-        time.sleep(2)
-        self.click_ssd_capacity()
-        self.click_checkbox_core()
-        self.click_drive_type()
-        self.click_checkbox_drive()
-        self.click_graphics_controller_type()
-        self.click_checkbox_dgraphics_controller()
-        self.driver.execute_script("window.scrollBy(0, 500)")
-        self.click_weight()
-        self.click_kilograms()
-        self.click_show_all_button()
-        self.assert_word(self.get_main_word(), "Ноутбуки")
-        self.show_section_titl()
+        with allure.step("selection product"):
+            Logger.add_start_step("selection_product")
+            self.get_current_url()
+            self.driver.maximize_window()
+            self.click_checkbox_label()
+            self.driver.execute_script("window.scrollBy(0, 1000)")
+            time.sleep(2)
+            self.click_ssd_capacity()
+            self.click_checkbox_core()
+            self.click_drive_type()
+            self.click_checkbox_drive()
+            self.click_graphics_controller_type()
+            self.click_checkbox_dgraphics_controller()
+            self.driver.execute_script("window.scrollBy(0, 500)")
+            self.click_weight()
+            self.click_kilograms()
+            self.click_show_all_button()
+            self.assert_word(self.get_main_word(), "Ноутбуки")
+            self.show_section_titl()
+            Logger.add_end_step(self.driver.current_url, "selection_product")
 
 
 

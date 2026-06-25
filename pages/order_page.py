@@ -1,3 +1,4 @@
+import allure
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -8,6 +9,19 @@ from utilites.logger import Logger
 
 
 class Order_page(Base):
+    def __init__(self, driver, selected_laptop_name=None, price2=None):  # ← Добавлены параметры
+        super().__init__(driver)
+        self.selected_item_name = None
+        self.selected_laptop_name = selected_laptop_name  # ← Для сравнения названия
+        self.price2 = price2  # ← Для сравнения цены
+
+
+
+
+
+    #     super().__init__(driver)  # ← вызывает родительский класс Base
+    #     self.price2 = price2  # ← сохраняет цену в атрибут объекта
+
     """ Заполнение формы оформления заказа.
 
         Шаги:
@@ -23,6 +37,8 @@ class Order_page(Base):
 
     #Locators
     individual_button = "body > div.site-main > div.main-row.row--blue.adptFix > div.wrapper > div.m-inner.order > div.form-title > div > label:nth-child(1) > span.radio-label"
+    name_product = "a.s-basket__link"
+    price_product = "div.s-basket__total"
     courier_button = "//span[@class='radio-label' and text()='Самовывоз']"
     payment_online_button = "//span[@class='radio-label' and text()='Онлайн']"
     payment_QR_button = "//span[@class='radio-label' and text()='QR']"
@@ -33,6 +49,10 @@ class Order_page(Base):
     #Getters
     def get_individual_button(self):
         return WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, self.individual_button)))
+    def get_name_product(self):
+        return WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, self.name_product)))
+    def get_price_product(self):
+        return WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, self.price_product)))
     def get_courier_button(self):
         return WebDriverWait(self.driver, 20).until(EC.element_to_be_clickable((By.XPATH, self.courier_button)))
     def get_payment_online_button(self):
@@ -50,6 +70,16 @@ class Order_page(Base):
         self.get_individual_button().click()
         print("The recipient button has been pressed.")
         time.sleep(2)
+    def click_name_product(self):
+        selected_item = self.get_name_product()
+        self.selected_item_name = selected_item.text
+        print(f"Название товара: {self.selected_item_name}")
+    def click_price_product(self):
+        sum_price = self.get_price_product()
+        self.price = sum_price.text
+        print(f"Цена товара: {self.price}")
+
+
     def click_courier_button(self):
         self.get_courier_button().click()
         print("courier button is clicked")
@@ -71,15 +101,22 @@ class Order_page(Base):
 
     #Methods
     def fill_out_the_form(self):
-
-        self.click_individual_button()
-        self.get_current_url()
-        self.click_courier_button()
-        self.driver.execute_script("window.scrollBy(0, 500)")
-        self.click_payment_online_button()
-        self.click_payment_QR_button()
-        self.click_field_order_comment()
-        self.click_agreement_button()
+        with allure.step("fill out the form"):
+            Logger.add_start_step("fill_out_the_form")
+            self.click_individual_button()
+            self.get_current_url()
+            self.click_name_product()
+            self.assert_word(self.selected_laptop_name, self.selected_item_name)  # ← Сравнение названия
+            self.click_price_product()
+            self.assert_word(self.price, self.price2)  # ← Сравнение цены
+            self.click_courier_button()
+            self.driver.execute_script("window.scrollBy(0, 500)")
+            self.click_payment_online_button()
+            self.click_payment_QR_button()
+            self.click_field_order_comment()
+            self.click_agreement_button()
+            # Logger.add_order_step("Order completed", "ORDER-CREATED", self.price2)  # ← Раскомментируйте если нужно
+            Logger.add_end_step(self.driver.current_url, "fill_out_the_form")
 
 
 

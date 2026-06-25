@@ -1,3 +1,4 @@
+import allure
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -30,6 +31,10 @@ class Product_page(Base):
 
 
     #Getters
+    def __init__(self, driver):
+        super().__init__(driver)
+        self.selected_item_name = None
+
     def get_add_product_button(self):
         return WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH, self.add_product_button)))
     def get_cart_button(self):
@@ -63,16 +68,19 @@ class Product_page(Base):
 
     #Methods
     def add_to_cart(self, price2, selected_item_name):
-
-        self.get_current_url()
-        self.driver.maximize_window()
-        self.click_add_product_button()
-        self.click_cart_button()
-        self.click_page_name()
-        self.click_item_in_cart()
-        self.click_final_price()
-        self.assert_word(self.in_cart, selected_item_name)
-        self.assert_word(self.price_in_cart, price2)
+        with allure.step("add to cart"):
+            Logger.add_start_step("add_to_cart")
+            self.get_current_url()
+            self.driver.maximize_window()
+            self.click_add_product_button()
+            self.click_cart_button()
+            self.click_page_name()
+            self.click_item_in_cart()
+            self.click_final_price()
+            self.assert_word(self.in_cart, selected_item_name)
+            self.assert_word(self.price_in_cart, price2)
+            Logger.add_cart_step("add to cart", self.selected_item_name, 1)
+            Logger.add_end_step(self.driver.current_url, "add_to_cart")
 
 
 

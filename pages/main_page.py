@@ -1,3 +1,4 @@
+import allure
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -45,11 +46,14 @@ class Main_page(Base):
 
         #Methods
     def go_to_catalog(self):
-        self.get_current_url()
-        self.click_catalog_button()
-        self.click_menu_button()
-        self.assert_word(self.get_main_word(), "Ноутбуки")
-        self.show_section_titl()
+        with allure.step("go to catalog"):
+            Logger.add_start_step("go_to_catalog")
+            self.get_current_url()
+            self.click_catalog_button()
+            self.click_menu_button()
+            self.assert_word(self.get_main_word(), "Ноутбуки")
+            self.show_section_titl()
+            Logger.add_end_step(self.driver.current_url, "go_to_catalog")
 
 
 

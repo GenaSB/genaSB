@@ -1,0 +1,45 @@
+Start test
+Current URL https://e.intant.ru/
+Click popup element
+Click cookie button
+Click authorization button
+input mail or login
+input password
+Click Login button
+Good value word
+Имя авторизованного пользователь: User2
+Current URL https://e.intant.ru/
+Click catalog button
+Click menu button
+Good value word
+Раздел: Ноутбуки
+Current URL https://e.intant.ru/catalog/portable-devices/notebooks
+Click checkbox label
+Click ssd capacity
+Click checkbox core
+Click drive type
+Click checkbox drive
+Click drive type
+Click checkbox drive
+Click kilograms
+Click show all button
+Good value word
+Раздел выбранного ноутбука: Ноутбуки
+Current URL https://e.intant.ru/catalog/portable-devices/notebooks?flt=ZjowXzE3OzFfNDAzMzA7MV83MTY7MV8yNjAzOzFfMjEwODk
+Цена товара: 48 000 ₽
+Название ноутбука: Ноутбук ASUS VivoBook 15 X1504VA-BQ2880 90NB10J2-M03B20
+Click choose laptop
+Cтраницa: Характеристики
+Название товара: Ноутбук ASUS VivoBook 15 X1504VA-BQ2880 90NB10J2-M03B20
+Good value word
+Цена товара: 48 000 ₽
+Good value word
+Current URL https://e.intant.ru/catalog/portable-devices/notebooks/laptop-asus-vivobook-15-x1504vabq2880-90nb10j2m03b20-432826.htm
+Click add product button
+Click button
+Заголовок страницы: Корзина
+Good value word
+Good value word
+Current URL https://e.intant.ru/basket.htm
+Click order button
+Заголовок страницы: Оформление заказа

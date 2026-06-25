@@ -1,0 +1,84 @@
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-25 23:15:53.680881
+Start name method: authorization
+
+End time: 2026-06-25 23:16:06.991514
+End name method: authorization
+URL: https://e.intant.ru/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-25 23:16:06.992464
+Start name method: go_to_catalog
+
+End time: 2026-06-25 23:16:10.705447
+End name method: go_to_catalog
+URL: https://e.intant.ru/catalog/portable-devices/notebooks
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-25 23:16:10.708477
+Start name method: selection_product
+
+End time: 2026-06-25 23:16:20.307282
+End name method: selection_product
+URL: https://e.intant.ru/catalog/portable-devices/notebooks?flt=ZjowXzU5OzFfNDAzMzA7MV83MTY7MV8yNjAzOzFfMjEwODk
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-25 23:16:20.309281
+Start name method: selection_laptop
+
+Product step: Selected laptop
+Product name: Ноутбук Acer Aspire 5 A515-58P-759A NX.KHJER.007
+Product price: 72 337 ₽
+
+End time: 2026-06-25 23:16:51.608340
+End name method: selection_laptop
+URL: https://e.intant.ru/catalog/portable-devices/notebooks/laptop-acer-aspire-5-a51558p759a-nxkhjer007-436109.htm
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-25 23:16:51.609855
+Start name method: add_to_cart
+
+Cart action: add to cart
+Quantity: 1
+
+End time: 2026-06-25 23:16:56.419964
+End name method: add_to_cart
+URL: https://e.intant.ru/basket.htm
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-25 23:16:56.421975
+Start name method: place_an_order
+
+End time: 2026-06-25 23:17:01.039032
+End name method: place_an_order
+URL: https://e.intant.ru/basket/ordering.htm
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-25 23:17:01.041051
+Start name method: fill_out_the_form
+
+End time: 2026-06-25 23:17:06.774959
+End name method: fill_out_the_form
+URL: https://e.intant.ru/basket/ordering.htm
+
+-----

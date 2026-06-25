@@ -1,3 +1,4 @@
+import allure
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -43,10 +44,13 @@ class Cart_page(Base):
 
     #Methods
     def place_an_order(self):
-        self.get_current_url()
-        self.driver.maximize_window()
-        self.click_order_button()
-        self.click_page_name()
+        with allure.step("place an order"):
+            Logger.add_start_step("place_an_order")
+            self.get_current_url()
+            self.driver.maximize_window()
+            self.click_order_button()
+            self.click_page_name()
+            Logger.add_end_step(self.driver.current_url, "place_an_order")
 
 
 

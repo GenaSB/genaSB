@@ -1,0 +1,88 @@
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-18 00:05:14.964936
+Start name method: authorization
+
+End time: 2026-06-18 00:05:31.539869
+End name method: authorization
+URL: https://e.intant.ru/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-18 00:05:31.540868
+Start name method: go_to_catalog
+
+End time: 2026-06-18 00:05:33.629409
+End name method: go_to_catalog
+URL: https://e.intant.ru/catalog/portable-devices/notebooks
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-18 00:05:33.630409
+Start name method: selection_product
+
+End time: 2026-06-18 00:05:39.544141
+End name method: selection_product
+URL: https://e.intant.ru/catalog/portable-devices/notebooks?flt=ZjowXzE3OzFfNDAzMzA7MV83MTY7MV8yNjAzOzFfMjEwODk
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-18 00:05:39.545141
+Start name method: selection_laptop
+
+Product step: Selected laptop
+Product name: Ноутбук ASUS VivoBook 15 X1504VA-BQ2880 90NB10J2-M03B20
+Product price: 48 000 ₽
+
+End time: 2026-06-18 00:05:42.999581
+End name method: selection_laptop
+URL: https://e.intant.ru/catalog/portable-devices/notebooks/laptop-asus-vivobook-15-x1504vabq2880-90nb10j2m03b20-432826.htm
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-18 00:05:43.000581
+Start name method: add_to_cart
+
+Cart action: add to cart
+Quantity: 1
+
+End time: 2026-06-18 00:05:47.897158
+End name method: add_to_cart
+URL: https://e.intant.ru/basket.htm
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-18 00:05:47.898160
+Start name method: place_an_order
+
+End time: 2026-06-18 00:05:50.645279
+End name method: place_an_order
+URL: https://e.intant.ru/basket/ordering.htm
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-06-18 00:05:50.646285
+Start name method: fill_out_the_form
+
+Order step: Order completed
+Order number: ORDER-CREATED
+Total price: 48 000 ₽
+
+End time: 2026-06-18 00:05:55.117717
+End name method: fill_out_the_form
+URL: https://e.intant.ru/basket/ordering.htm
+
+-----

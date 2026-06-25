@@ -1,3 +1,4 @@
+import allure
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -81,17 +82,21 @@ class Laptop_selection_page(Base):
 
     #Methods
     def selection_laptop(self):
-        self.get_current_url()
-        self.driver.maximize_window()
-        self.click_price()
-        self.click_choose_laptop()
-        self.click_name_page()
-        self.click_name_product()
-        self.assert_word(self.selected_laptop_name, self.selected_item_name)
-        self.click_price2()
-        if '\n' in self.price:
-            self.price = self.price.split('\n')[1]
-        self.assert_word(self.price, self.price2)
+        with allure.step("selection laptop"):
+            Logger.add_start_step("selection_laptop")
+            self.get_current_url()
+            self.driver.maximize_window()
+            self.click_price()
+            self.click_choose_laptop()
+            self.click_name_page()
+            self.click_name_product()
+            self.assert_word(self.selected_laptop_name, self.selected_item_name)
+            self.click_price2()
+            if '\n' in self.price:
+                self.price = self.price.split('\n')[1]
+            self.assert_word(self.price, self.price2)
+            Logger.add_product_step("Selected laptop", self.selected_item_name, self.price2)
+            Logger.add_end_step(self.driver.current_url, "selection_laptop")
 
 
 
