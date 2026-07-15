@@ -1,0 +1,54 @@
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-07-15 23:40:07.902114
+Start name method: authorization
+
+End time: 2026-07-15 23:40:16.615250
+End name method: authorization
+URL: https://e.intant.ru/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-07-15 23:40:16.617507
+Start name method: go_to_catalog
+
+End time: 2026-07-15 23:40:19.992860
+End name method: go_to_catalog
+URL: https://e.intant.ru/catalog/portable-devices/notebooks
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-07-15 23:40:19.995307
+Start name method: selection_product
+
+End time: 2026-07-15 23:40:28.657259
+End name method: selection_product
+URL: https://e.intant.ru/catalog/portable-devices/notebooks?flt=ZjowXzc0MzsxXzQwMzMwOzFfNzE2OzFfMjYwMzsxXzIxMDg5
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-07-15 23:40:28.658569
+Start name method: selection_laptop
+
+Product step: Selected laptop
+Product name: Ноутбук CBR NB15I5G12-16G512G-WP
+Product price: 51 750 ₽
+
+End time: 2026-07-15 23:40:59.252238
+End name method: selection_laptop
+URL: https://e.intant.ru/catalog/portable-devices/notebooks/laptop-cbr-nb15i5g1216g512gwp-425002.htm
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-07-15 23:40:59.253412
+Start name method: add_to_cart
+
