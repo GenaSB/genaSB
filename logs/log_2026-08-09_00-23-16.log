@@ -1,0 +1,79 @@
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-08-09 00:23:24.970661
+Start name method: authorization
+
+End time: 2026-08-09 00:23:43.682576
+End name method: authorization
+URL: https://e.intant.ru/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-08-09 00:23:43.683668
+Start name method: go_to_catalog
+
+End time: 2026-08-09 00:23:48.041255
+End name method: go_to_catalog
+URL: https://e.intant.ru/catalog/portable-devices/notebooks
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-08-09 00:23:48.043491
+Start name method: selection_product
+
+End time: 2026-08-09 00:23:56.121906
+End name method: selection_product
+URL: https://e.intant.ru/catalog/portable-devices/notebooks?flt=ZjowXzU5OzFfNDAzMzA7MV83MTY7MV8yNjAzOzFfMjEwODk
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-08-09 00:23:56.123018
+Start name method: selection_laptop
+
+Product step: Selected laptop
+Product name: Ноутбук Acer Aspire 5 A515-58P-759A NX.KHJER.007
+Product price: 71 285 ₽
+
+End time: 2026-08-09 00:24:11.511637
+End name method: selection_laptop
+URL: https://e.intant.ru/catalog/portable-devices/notebooks/laptop-acer-aspire-5-a51558p759a-nxkhjer007-436109.htm
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-08-09 00:24:11.512873
+Start name method: add_to_cart
+
+Cart action: add to cart
+Quantity: 1
+
+End time: 2026-08-09 00:24:17.654132
+End name method: add_to_cart
+URL: https://e.intant.ru/basket.htm
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-08-09 00:24:17.654132
+Start name method: place_an_order
+
+End time: 2026-08-09 00:24:22.341363
+End name method: place_an_order
+URL: https://e.intant.ru/basket/ordering.htm
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product (call)
+Start time: 2026-08-09 00:24:22.342426
+Start name method: fill_out_the_form
+

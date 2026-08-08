@@ -19,7 +19,7 @@ class Product_selection_page(Base):
                 5. Проверяет успешность фильтрации по слову "Ноутбуки" """
 
     #Locators
-    checkbox_label = "(//span[@class='checkbox-ps'])[4]"
+    checkbox_label = "(//span[@class='checkbox-ps'])[5]"
     ssd_capacity = "//div[text()='Объем SSD']"
     checkbox_ssd = "//span[@class='checkbox-label' and text()='512 ГБ']"
     drive_type = "//div[text()='Тип привода']"
