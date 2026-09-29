@@ -21,4 +21,8 @@ logs/
 .vscode/
 
 # Screenshots
+screen/
 base/screens/
+
+# Virtual environment
+venv/
