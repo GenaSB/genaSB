@@ -1,0 +1,71 @@
+import allure
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+import time
+from base.base_class import Base
+from utilites import logger
+from utilites.logger import Logger
+
+
+class Cart_page(Base):
+
+    """ Страница корзины с товаром, переход на страницу оформления заказа
+
+    Шаги:
+        1. открывает текущую страницу
+        2. нажимает на кнопку "Оформить заказ
+        3. переходит на страницу оформления заказа
+        4. выводит заголовок страницы """
+
+
+
+    #Locators
+    order_button = "//a[@class='u-f-right btn_yellow']"
+    page_name = "//h1[text()='Оформление заказа']"
+
+
+    #Getters
+    def get_order_button(self):
+        return WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH, self.order_button)))
+    def get_page_name(self):
+        return WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located((By.XPATH, self.page_name)))
+
+
+    #Actions
+    def click_order_button(self):
+        self.get_order_button().click()
+        print("Click order button")
+    def click_page_name(self):
+        page_name_element = self.get_page_name()
+        page_name_text = page_name_element.text
+        print(f"Заголовок страницы: {page_name_text}")
+
+
+    #Methods
+    def place_an_order(self):
+        with allure.step("place an order"):
+            Logger.add_start_step("place_an_order")
+            self.get_current_url()
+            self.driver.maximize_window()
+            self.click_order_button()
+            self.click_page_name()
+            Logger.add_end_step(self.driver.current_url, "place_an_order")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
