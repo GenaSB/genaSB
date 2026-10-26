@@ -41,7 +41,6 @@ class Order_page(Base):
     price_product = "div.s-basket__total"
     courier_button = "//span[@class='radio-label' and text()='Самовывоз']"
     payment_online_button = "//span[@class='radio-label' and text()='Онлайн']"
-    payment_QR_button = "//span[@class='radio-label' and text()='QR']"
     field_order_comment = "//textarea[@id='OrderComment']"
     agreement_button = "//input[@id='ConfirmPersonalDataOrder']"
 
@@ -57,8 +56,6 @@ class Order_page(Base):
         return WebDriverWait(self.driver, 20).until(EC.element_to_be_clickable((By.XPATH, self.courier_button)))
     def get_payment_online_button(self):
         return WebDriverWait(self.driver, 20).until(EC.element_to_be_clickable((By.XPATH, self.payment_online_button)))
-    def get_payment_QR_button(self):
-        return WebDriverWait(self.driver, 20).until(EC.element_to_be_clickable((By.XPATH, self.payment_QR_button)))
     def get_field_order_comment(self):
         return WebDriverWait(self.driver, 20).until(EC.element_to_be_clickable((By.XPATH, self.field_order_comment)))
     def get_agreement_button(self):
@@ -87,9 +84,6 @@ class Order_page(Base):
     def click_payment_online_button(self):
         self.get_payment_online_button().click()
         print("Payment online button is clicked")
-    def click_payment_QR_button(self):
-        self.get_payment_QR_button().click()
-        print("Payment QR button is clicked")
     def click_field_order_comment(self):
         self.get_field_order_comment().click()
         self.get_field_order_comment().send_keys("I want to buy this product as soon as possible.")
@@ -112,7 +106,6 @@ class Order_page(Base):
             self.click_courier_button()
             self.driver.execute_script("window.scrollBy(0, 500)")
             self.click_payment_online_button()
-            self.click_payment_QR_button()
             self.click_field_order_comment()
             self.click_agreement_button()
             # Logger.add_order_step("Order completed", "ORDER-CREATED", self.price2)  # ← Раскомментируйте если нужно
