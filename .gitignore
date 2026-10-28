@@ -26,3 +26,7 @@ base/screens/
 
 # Virtual environment
 venv/
+
+# Backup files
+*~
+*.bak
