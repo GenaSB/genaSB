@@ -11,7 +11,7 @@ from base.base_class import Base
 from utilites.logger import Logger
 
 @allure.description("Test buy product")
-def test_buy_product():
+def test_buy_product(driver):
     options = webdriver.ChromeOptions()
     options.add_argument("--guest")
     options.add_experimental_option("detach", True)

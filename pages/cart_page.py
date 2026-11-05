@@ -52,6 +52,35 @@ class Cart_page(Base):
             self.click_page_name()
             Logger.add_end_step(self.driver.current_url, "place_an_order")
 
+    def clear_cart(self):
+        """Очистка корзины перед тестом"""
+        with allure.step("clear cart"):
+            Logger.add_start_step("clear_cart")
+            self.driver.get("https://e.intant.ru/basket/")
+
+            # Проверяем, есть ли кнопка очистки корзины
+            clear_buttons = self.driver.find_elements(By.CSS_SELECTOR, "a.js-clear-basket")
+
+            if clear_buttons:
+                print(f"Корзина не пуста. Найдено кнопок очистки: {len(clear_buttons)}")
+                clear_buttons[0].click()
+
+                # Ждём alert «Вы уверены?» и принимаем
+                try:
+                    alert = WebDriverWait(self.driver, 5).until(EC.alert_is_present())
+                    print(f"Alert: {alert.text}")
+                    alert.accept()
+                    print("Alert принят")
+                    self.driver.refresh()  # ← обновить страницу
+                    time.sleep(1)  # ← дать загрузиться
+                except Exception as e:
+                    print(f"Alert не появился: {e}")
+            else:
+                print("Корзина уже пуста — очистка не требуется")
+
+            Logger.add_end_step(self.driver.current_url, "clear_cart")
+
+
 
 
 
