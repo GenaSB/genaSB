@@ -30,3 +30,6 @@ venv/
 # Backup files
 *~
 *.bak
+
+# Manual testing artifacts
+my examples/
