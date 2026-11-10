@@ -43,8 +43,6 @@
 - [Тест-кейсы](https://github.com/GenaSB/genaSB/blob/main/docs/test-cases.md)
 - [Отчёт о тестировании](https://github.com/GenaSB/genaSB/blob/main/docs/test-report.md)
 
-> ⚠️ *Раздел в процессе наполнения.*
-
 ---
 
 ### 📫 Контакты
