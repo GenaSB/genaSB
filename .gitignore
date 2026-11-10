@@ -33,3 +33,6 @@ venv/
 
 # Manual testing artifacts
 my examples/
+
+# Python venv (scripts)
+scripts/
