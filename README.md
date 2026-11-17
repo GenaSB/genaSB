@@ -8,7 +8,7 @@
 
 - 🌍 Проживаю в России
 - 🧠 Специализация: автоматизация тестирования на Python (Selenium WebDriver)
-- 📫 Связаться со мной: [Telegram](https://t.me/Gena_SB) | [WhatsApp](https://wa.me/79610961327) | bekrenev87@list.ru
+- 📫 Связаться со мной: [Telegram](https://t.me/Gena_SB) | [WhatsApp](https://wa.me/79610961327) | [Email](mailto:bekrenev87@list.ru)
 
 ---
 
